@@ -1,0 +1,16 @@
+ Powershell Commands
+
+1. Get-Date
+   2 $datestring=(Get-Date).ToString("s").Replace(":","-")
+   3 Get-Date
+   4 $datestring=(Get-Date).ToString("s").Replace("-",":")
+   5 Get-Date
+   6 $datestring=(Get-Date).ToString("s").Replace(":",".")
+   7 Get-Date
+   8 $datestring
+   9 $datestring=(Get-Date).ToString("s").Replace(".","-")
+  10 $datestring
+  11 $datestring=(Get-Date).ToString("s").Replace(":","-")
+  12 $datestring
+  13 $datestring=(Get-Date).ToString("s").Replace(":","@")
+  14 $datestring
